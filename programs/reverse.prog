@@ -1,0 +1,7 @@
+0. set(j,tail)
+1. swap(*i,*j)
+2. dec(j)
+3. inc(i)
+4. cmp(j,i)
+5. goto(1,!(( zf = 0 )( cf = 0 )))
+6. end

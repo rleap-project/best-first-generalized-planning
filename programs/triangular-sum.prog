@@ -1,0 +1,5 @@
+0. inc(b)
+1. add(*a,*b)
+2. dec(*b)
+3. goto(1,!(( zf = 1 )( cf = 0 )))
+4. end

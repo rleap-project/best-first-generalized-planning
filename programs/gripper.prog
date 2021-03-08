@@ -1,0 +1,8 @@
+0. pick(*left-arm)
+1. moveAB()
+2. drop(*left-arm)
+3. inc(left-arm)
+4. moveBA()
+5. cmp(left-arm,last-object)
+6. goto(0,!(( zf = 1 )( cf = 0 )))
+7. end

@@ -1,0 +1,7 @@
+0. inc(a)
+1. cmp(*b,*a)
+2. goto(4,!(( zf = 0 )( cf = 1 )))
+3. set(b,a)
+4. cmp(tail,a)
+5. goto(0,!(( zf = 1 )( cf = 0 )))
+6. end

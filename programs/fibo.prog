@@ -1,0 +1,8 @@
+0. inc(c)
+1. inc(c)
+2. add(*c,*b)
+3. inc(b)
+4. add(*c,*b)
+5. cmp(n,c)
+6. goto(1,!(( zf = 1 )( cf = 0 )))
+7. end

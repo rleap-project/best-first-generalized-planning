@@ -1,0 +1,7 @@
+0. cmp(*target,*a)
+1. goto(3,!(( zf = 1 )( cf = 0 )))
+2. inc(accumulator)
+3. inc(a)
+4. cmp(tail,a)
+5. goto(0,!(( zf = 1 )( cf = 0 )))
+6. end
